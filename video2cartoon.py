@@ -35,7 +35,7 @@ def cartoon_filter(frame):
   return dst
 
 # 비디오 파일 경로 설정
-video_path = 'video\bad_sample3.mp4'
+video_path = 'video\bad_sample.mp4'
 
 # 비디오 로드
 cap = cv2.VideoCapture(video_path)

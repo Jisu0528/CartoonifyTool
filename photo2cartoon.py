@@ -50,7 +50,7 @@ current_image = cv2.imread(image_files[current_image_index])
 
 cartoon_mode = False
 
-while True:
+while True: 
   if cartoon_mode:
     current_image = cartoon_filter(current_image)
   else:
